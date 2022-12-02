@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#b1aaaa;
+}
+.calculator{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#textview{
+    width:240px;
+    margin:5px;
+    padding:8px;
+    font-size:24px;
+    border:none;
+    border-radius:3px;
+}
+button{
+    height:60px;
+    width:60px;
+    margin:2px;
+    border:none;
+    border-radius:3px;
+    background: #45246b;
+    color:#fff;
+    font-size:30px;
+    cursor:pointer;
+}
+button:hover{
+    background:rgb(15, 5, 43);
+}

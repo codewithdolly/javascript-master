@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>StopWatch</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color: black;">
+  <div style="color:white;text-align: center;">
+   <h1> STOP WATCH</h1>
+  </div>
+  <div class="container">
+    <img src="clock.jpg" style="width:100%">
+    <div id="stopwatch">
+        <div id="options">
+            <button class="btn" id="start" title="start" onclick="startTimer()"><i class="fa fa-play"></i></button>
+            <button class="btn" id="stop" title="stop" onclick="stopTimer()"><i class="fa fa-pause"></i></button>
+            <button class="btn" id="reset" title="reset" onclick="resetTimer()"><i class="fa fa-backward"></i></button>
+        </div>
+    </div>
+        <div id="timer">
+            <span class="time" id="hours">0</span>
+            <span class="time" id="minutes">0</span>
+            <span class="time" id="seconds">0</span>
+            <span class="time" id="milliseconds">0</span>
+        </div>
+   
+    </div>
+
+<script src="app.js"></script>
+</body>
+
+</html>

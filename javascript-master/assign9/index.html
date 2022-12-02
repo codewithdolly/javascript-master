@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+   
+    <!-- CHAPTER 43-48
+      Task 1--->
+    <!-- <h4>Task 1</h4> 
+    <a href="#" onclick = "alert('You have clicked on a link')">Link</a>  -->
+    <!-- End of Task 1--> 
+
+    <!--Task 2--->
+    <!-- <h4>Task 2</h4> 
+    <H1>Mobile Phone Lookup</H1>
+    <div class="container">
+        <div class="row row-cols-4">
+          <div class="col mr-auto"><img src="1.gif" class="card-img-top" onclick = "alert('Thanks for purchasing a phone from us')"></div>
+          <div class="col mr-auto"><img src="2.gif" class="card-img-top" onclick = "alert('Thanks for purchasing a phone from us')"></div>
+          <div class="col mr-auto"><img src="3.gif" class="card-img-top" onclick = "alert('Thanks for purchasing a phone from us')"></div>
+          <div class="col mr-auto"><img src="4.gif" class="card-img-top" onclick = "alert('Thanks for purchasing a phone from us')"></div>
+        </div>
+      </div>--->
+    
+    <!---- End of Task 2-->
+    <!--Task 3
+    <h4>Task 3</h4>
+    <table id = "table">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>  
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>John</td>
+            <td>10</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>James</td>
+            <td>7</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Bill</td>
+            <td>8</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Steve</td>
+            <td>5</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Banner</td>
+            <td>12</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Stark</td>
+            <td>9</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Tony</td>
+            <td>10</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+        
+        <tr>
+            <td>9</td>
+            <td>Jimmy</td>
+            <td>5</td>
+            <td><button onclick = "rowDelete(this)">Delete</button></td>
+        </tr>
+    </table>
+    End of Task 3-->
+
+    <!--Task 4
+    <h4>Task 4</h4>
+    <img id = "img" onmouseout = 'image1()' onmouseover = 'image2()' src="1.jpg">
+
+    End of Task 4-->
+
+    <!--Task 5
+    <h4>Task 5</h4>
+    <div id=counter >
+    <h1 id= counter>Counter</h1>
+    <h2 id="count">0</h2>
+    <button onclick = 'increase()'>Increase</button>
+    <button onclick = 'decrease()'>Decrease</button>
+</div>
+    End of Task 5 -->
+
+
+    <!-- CHAPTER 49-52
+      Task 1 
+    
+    <form action = "#modal">
+      <h1 class = "text-primary">Sign Up</h1>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword">Password</label>
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+      </div>
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="firstName">First Name</label>
+            <input type="text" class="form-control" placeholder="First name" id = "firstName">
+          </div>
+          <div class="form-group col-md-6">
+              <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" placeholder="Last name" id="lastName">
+          </div>
+        </div>
+      
+      <div class="form-row">
+       <div class="form-group col-md-4">
+              <label for="inputCountry">Country</label>
+              <input type="text" class="form-control" id="inputCountry">
+          </div>
+        <div class="form-group col-md-4">
+          <label for="inputCity">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputProvince">Province</label>
+          <input type="text" class="form-control" id="inputProvince">
+        </div>
+        
+       
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block" onClick = "displayData()" data-toggle="modal" data-target="#Modal">Sign Up</button>
+  </form> 
+
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5  class="modal-title" id="ModalLabel">Form Data</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <ul>
+           <li id = "email"></li>
+           <li id = "password"></li>
+           <li id = "fname"></li>
+           <li id = "lname"></li>
+           <li id = "country"></li>
+           <li id = "city"></li>
+           <li id ="province"></li>
+       </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal" >Close</button>
+      </div>
+    </div>
+  </div>
+ </div> -->
+
+   <!-- End of Task 1 -->  
+   
+    <!-- Task 2 -->
+    <!-- <p id = "para">Lorem ipsum dolor sit amet, consectetur adipisicing <a onclick = "readMore()" href="javascript:void(0)">Read More</a> -->
+      <!-- End of Task 2 -->
+
+    <!--TASK 3
+       Add Student Button 
+    <div style = "display:flex;justify-content: center;align-items: center;" >
+      <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Modal" onclick = "reset()">Add Student</button>
+  </div>
+   End of Add Student Button -->
+  
+  <!-- Pre filled Table Data 
+      <table class="table" id ="dataTable">
+          <thead>
+            <tr>
+              <th scope="col">Index</th>
+              <th scope="col">Name</th>
+              <th scope="col">Class</th>
+              <th scope="col">Edit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody id = "tableBody">
+            <tr>
+              <th scope="row">1</th>
+              <td>Jhone</td>
+              <td>10</td>
+              <td><button type="button" class="btn btn-warning" onclick = "editform(this)">Edit</button></td>
+              <td><button type="button" class="btn btn-danger" onclick = "rowDelete(this)">Delete</button></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Doe</td>
+              <td>9</td>
+              <td><button type="button" class="btn btn-warning" onclick = "editform(this)">Edit</button></td>
+              <td><button type="button" class="btn btn-danger" onclick = "rowDelete(this)">Delete</button></td>
+  
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>James</td>
+              <td>8</td>
+              <td><button type="button" class="btn btn-warning" onclick = "editform(this)">Edit</button></td>
+              <td><button type="button" class="btn btn-danger" onclick = "rowDelete(this)">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+  
+         End of Pre filled Table Data -->
+  
+     
+     <!-- Add Student Form
+     
+      <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5  class="modal-title" id="ModalLabel">Add Student</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label for="firstName">Name</label>
+                        <input type="text" class="form-control" placeholder="Name" id = "Name" value = "">
+                      </div>
+                      <div class="form-group col-md-6">
+                          <label for="lastName">Class</label>
+                        <input type="text" class="form-control" placeholder="Class" id="Class" value = "">
+                      </div>
+                    </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-block" data-dismiss="modal" onClick = "addStudent()">Add Student</button>
+              </div>
+            </div>
+          </div>
+        </div>
+         End of Add Student Form -->
+  
+  <!-- Edit Button Form 
+        <div class="modal fade" id="ModalEdit" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5  class="modal-title" id="ModalLabel">Edit Student</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <div class="form-row">
+                      <div class="form-group col-md-6">
+                          <label for="firstName">Name</label>
+                        <input type="text" class="form-control" placeholder="Name" id = "editName" value = "">
+                      </div>
+                      <div class="form-group col-md-6">
+                          <label for="lastName">Class</label>
+                        <input type="text" class="form-control" placeholder="Class" id="editClass" value = "">
+                      </div>
+                    </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-block" data-dismiss="modal" onClick = "edit(idx)">Update Student</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+  
+        <!---End of Edit Button Form 
+        END OF TASK3-->
+
+    <!-- CHAPTER 53-58 -->
+     <!-- Task 1 -->
+     <!-- <div id = "body1">
+      <div id = "images">
+  
+      </div>
+      <div id="modal" class="modal">
+          <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
+      <img class="modal-content" id="modal-img">
+      </div>
+  </div> -->
+      <!-- End of Task1 -->
+  
+      <!-- Task 2 -->
+      <!-- <div>
+          <p id = "para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita pariatur voluptatem,
+               quae labore praesentium hic totam dicta aspernatur reprehenderit!
+               Officia vel quos nam quaerat fugit magni iusto dolor possimus dignissimos!</p>
+      </div>
+      <div><button onclick = "zoomIn(this)">Zoom In (+)</button>
+          <button onclick = "zoomOut()">Zoom Out(-)</button></div> -->
+      <!-- End of Task 2 -->
+
+      <!-- Modal work -->
+    <!-- <div id="modal" class="modal"> 
+      <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
+      <img class="modal-content" id="modal-img">
+  </div>
+  <h2>Hint:</h2>
+  <p>You can add and remove class like this</p>
+  <p>
+      var modal = document.getElementById('modal');
+  </p>
+  <ul>
+      <li>
+          modal.classList.add('modal-open')
+      </li>
+      <li>
+          modal.classList.remove('modal-close');
+      </li>
+  </ul>
+  <hr>
+
+  <ol>
+      <li>
+          Add modal.html style and html codes in your file
+      </li>
+      <li>
+          Create an array of all images paths.
+      </li>
+      <li>
+          Loop through array and display all images in browser using innerHTML.
+      </li>
+      <li>
+          Add onclick function on each image.
+      </li>
+      <li>
+          On image Function definition get modal using id and assign it to a variable,
+          <br> And on that variable
+          <ul>
+              <li>
+                  Add class 'modal-open'
+              </li>
+              <li>
+                  Remove class 'modal-close'
+              </li>
+              <li>
+                  Add style to display block
+              </li>
+              <li>
+                  Assign image path to src
+              </li>
+          </ul>
+      </li>
+      <li>
+
+          On Modal Close Function definition "onClosedImagModal()" get modal using id and assign it to a variable,
+          <br> And on that variable
+          <ul>
+              <li>
+                  Add class 'modal-close'
+              </li>
+              <li>
+                  Remove class 'modal-open'
+              </li>
+              <li>
+                  Set this line in end of function
+                  <br /> setTimeout(()=>{ modal.style.display = "none"; }, 550)
+              </li>
+      </li>
+  </ol>--->
+
+  
+
+</body>
+<script src = app.js></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>

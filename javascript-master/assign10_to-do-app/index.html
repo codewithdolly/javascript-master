@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+</head>
+<body class="bck">
+        <section class="todo-outer">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-12 col-md-8">
+              <h1>Welcome in Todo List Application</h1>
+              <div class="todo-inner">
+                <div class="form-row">
+                  <div class="col-md-7 col-sm-3 mr-sm-2">
+                    <input type="text" class="form-control" placeholder="Enter your task" id="todo-item" />
+                  </div>
+                  <button type="button" class="btn btn-success mr-sm-2" onclick="addtodo()">
+                    Add Task
+                  </button>
+                  <button type="button" onclick="deleteALL()" class="btn btn-danger mr-sm-2">
+                    Delete All
+                  </button>
+                </div>
+                <div >
+                    <ol id="list">
+            
+                
+                    </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
